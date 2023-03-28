@@ -7,8 +7,6 @@
 
 import Foundation
 
-typealias CompletionHandler = (Any, Error?) -> Void
-
 class APPConstant: NSObject {
     static let shared = APPConstant()
     static let schoolListAPIURL = "https://data.cityofnewyork.us/resource/s3k6-pzi2.json"

@@ -29,6 +29,13 @@
 		C9FE35BC29D2B1D4009CF7B5 /* SchoolOverViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FE35BA29D2B1D4009CF7B5 /* SchoolOverViewCell.swift */; };
 		C9FE35BD29D2B1D4009CF7B5 /* SchoolOverViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9FE35BB29D2B1D4009CF7B5 /* SchoolOverViewCell.xib */; };
 		C9FE35BF29D2BACF009CF7B5 /* SchoolDetailViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FE35BE29D2BACF009CF7B5 /* SchoolDetailViewExtension.swift */; };
+		C9FE35C229D2D90C009CF7B5 /* MockAPIEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FE35C129D2D90C009CF7B5 /* MockAPIEngine.swift */; };
+		C9FE35C329D2D914009CF7B5 /* APIEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FE359729D201B0009CF7B5 /* APIEngine.swift */; };
+		C9FE35C729D2DA4B009CF7B5 /* SchoolListResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = C9FE35C529D2DA4B009CF7B5 /* SchoolListResponse.json */; };
+		C9FE35C829D2DA4B009CF7B5 /* SchoolDetailListResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = C9FE35C629D2DA4B009CF7B5 /* SchoolDetailListResponse.json */; };
+		C9FE35CA29D2DA8D009CF7B5 /* Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FE35C929D2DA8D009CF7B5 /* Mock.swift */; };
+		C9FE35CC29D2DDFA009CF7B5 /* MockDataTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FE35CB29D2DDFA009CF7B5 /* MockDataTransformer.swift */; };
+		C9FE35CD29D2DE2E009CF7B5 /* School.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FE358929D1EB6D009CF7B5 /* School.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +74,11 @@
 		C9FE35BA29D2B1D4009CF7B5 /* SchoolOverViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolOverViewCell.swift; sourceTree = "<group>"; };
 		C9FE35BB29D2B1D4009CF7B5 /* SchoolOverViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SchoolOverViewCell.xib; sourceTree = "<group>"; };
 		C9FE35BE29D2BACF009CF7B5 /* SchoolDetailViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolDetailViewExtension.swift; sourceTree = "<group>"; };
+		C9FE35C129D2D90C009CF7B5 /* MockAPIEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAPIEngine.swift; sourceTree = "<group>"; };
+		C9FE35C529D2DA4B009CF7B5 /* SchoolListResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SchoolListResponse.json; sourceTree = "<group>"; };
+		C9FE35C629D2DA4B009CF7B5 /* SchoolDetailListResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SchoolDetailListResponse.json; sourceTree = "<group>"; };
+		C9FE35C929D2DA8D009CF7B5 /* Mock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mock.swift; sourceTree = "<group>"; };
+		C9FE35CB29D2DDFA009CF7B5 /* MockDataTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDataTransformer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +130,7 @@
 		C9FE356829D1E27A009CF7B5 /* 20230328-RuthwickSRai-NYCSchoolsTests */ = {
 			isa = PBXGroup;
 			children = (
+				C9FE35C029D2D8FB009CF7B5 /* SupportFiles */,
 				C9FE356929D1E27A009CF7B5 /* _0230328_RuthwickSRai_NYCSchoolsTests.swift */,
 			);
 			path = "20230328-RuthwickSRai-NYCSchoolsTests";
@@ -238,6 +251,26 @@
 			path = DetailsCells;
 			sourceTree = "<group>";
 		};
+		C9FE35C029D2D8FB009CF7B5 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				C9FE35C429D2DA39009CF7B5 /* MocksResponse */,
+				C9FE35C129D2D90C009CF7B5 /* MockAPIEngine.swift */,
+				C9FE35C929D2DA8D009CF7B5 /* Mock.swift */,
+				C9FE35CB29D2DDFA009CF7B5 /* MockDataTransformer.swift */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		C9FE35C429D2DA39009CF7B5 /* MocksResponse */ = {
+			isa = PBXGroup;
+			children = (
+				C9FE35C629D2DA4B009CF7B5 /* SchoolDetailListResponse.json */,
+				C9FE35C529D2DA4B009CF7B5 /* SchoolListResponse.json */,
+			);
+			path = MocksResponse;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -333,6 +366,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9FE35C729D2DA4B009CF7B5 /* SchoolListResponse.json in Resources */,
+				C9FE35C829D2DA4B009CF7B5 /* SchoolDetailListResponse.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,7 +399,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9FE35C229D2D90C009CF7B5 /* MockAPIEngine.swift in Sources */,
+				C9FE35CD29D2DE2E009CF7B5 /* School.swift in Sources */,
+				C9FE35CA29D2DA8D009CF7B5 /* Mock.swift in Sources */,
+				C9FE35C329D2D914009CF7B5 /* APIEngine.swift in Sources */,
 				C9FE356A29D1E27A009CF7B5 /* _0230328_RuthwickSRai_NYCSchoolsTests.swift in Sources */,
+				C9FE35CC29D2DDFA009CF7B5 /* MockDataTransformer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

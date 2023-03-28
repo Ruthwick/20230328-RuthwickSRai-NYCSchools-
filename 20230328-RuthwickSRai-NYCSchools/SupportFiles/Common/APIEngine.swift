@@ -12,6 +12,8 @@ class APIEngine {
     static let shared = APIEngine()
     let session: URLSession
     
+    typealias CompletionHandler = (Any, Error?) -> Void
+    
     init(configuration: URLSessionConfiguration = URLSessionConfiguration.default) {
         self.session = URLSession(configuration: configuration)
     }
