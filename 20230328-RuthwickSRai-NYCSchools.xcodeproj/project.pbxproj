@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9FE355329D1E277009CF7B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FE355229D1E277009CF7B5 /* AppDelegate.swift */; };
+		C9FE355A29D1E277009CF7B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9FE355829D1E277009CF7B5 /* Main.storyboard */; };
+		C9FE355C29D1E279009CF7B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9FE355B29D1E279009CF7B5 /* Assets.xcassets */; };
+		C9FE355F29D1E279009CF7B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9FE355D29D1E279009CF7B5 /* LaunchScreen.storyboard */; };
+		C9FE356A29D1E27A009CF7B5 /* _0230328_RuthwickSRai_NYCSchoolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FE356929D1E27A009CF7B5 /* _0230328_RuthwickSRai_NYCSchoolsTests.swift */; };
+		C9FE358729D1E602009CF7B5 /* SchoolListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FE358629D1E602009CF7B5 /* SchoolListViewController.swift */; };
+		C9FE358A29D1EB6D009CF7B5 /* School.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FE358929D1EB6D009CF7B5 /* School.swift */; };
+		C9FE358D29D1F77E009CF7B5 /* SchoolListViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FE358C29D1F77E009CF7B5 /* SchoolListViewExtension.swift */; };
+		C9FE359329D1FF67009CF7B5 /* APPConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FE359229D1FF67009CF7B5 /* APPConstant.swift */; };
+		C9FE359629D20114009CF7B5 /* SchoolDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FE359529D20114009CF7B5 /* SchoolDetailViewController.swift */; };
+		C9FE359829D201B0009CF7B5 /* APIEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FE359729D201B0009CF7B5 /* APIEngine.swift */; };
+		C9FE35A129D21CCA009CF7B5 /* SchoolTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FE359F29D21CCA009CF7B5 /* SchoolTableViewCell.swift */; };
+		C9FE35A229D21CCA009CF7B5 /* SchoolTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9FE35A029D21CCA009CF7B5 /* SchoolTableViewCell.xib */; };
+		C9FE35A529D2227A009CF7B5 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FE35A429D2227A009CF7B5 /* String+Extension.swift */; };
+		C9FE35AE29D226E0009CF7B5 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FE35AD29D226E0009CF7B5 /* LoadingView.swift */; };
+		C9FE35B429D2AC00009CF7B5 /* DetailHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FE35B229D2AC00009CF7B5 /* DetailHeaderCell.swift */; };
+		C9FE35B529D2AC00009CF7B5 /* DetailHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9FE35B329D2AC00009CF7B5 /* DetailHeaderCell.xib */; };
+		C9FE35B829D2ACE7009CF7B5 /* SATScoreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FE35B629D2ACE7009CF7B5 /* SATScoreTableViewCell.swift */; };
+		C9FE35B929D2ACE7009CF7B5 /* SATScoreTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9FE35B729D2ACE7009CF7B5 /* SATScoreTableViewCell.xib */; };
+		C9FE35BC29D2B1D4009CF7B5 /* SchoolOverViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FE35BA29D2B1D4009CF7B5 /* SchoolOverViewCell.swift */; };
+		C9FE35BD29D2B1D4009CF7B5 /* SchoolOverViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9FE35BB29D2B1D4009CF7B5 /* SchoolOverViewCell.xib */; };
+		C9FE35BF29D2BACF009CF7B5 /* SchoolDetailViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FE35BE29D2BACF009CF7B5 /* SchoolDetailViewExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9FE356629D1E27A009CF7B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9FE354729D1E277009CF7B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9FE354E29D1E277009CF7B5;
+			remoteInfo = "20230328-RuthwickSRai-NYCSchools";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C9FE354F29D1E277009CF7B5 /* 20230328-RuthwickSRai-NYCSchools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20230328-RuthwickSRai-NYCSchools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9FE355229D1E277009CF7B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C9FE355929D1E277009CF7B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C9FE355B29D1E279009CF7B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9FE355E29D1E279009CF7B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C9FE356029D1E279009CF7B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9FE356529D1E27A009CF7B5 /* 20230328-RuthwickSRai-NYCSchoolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20230328-RuthwickSRai-NYCSchoolsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9FE356929D1E27A009CF7B5 /* _0230328_RuthwickSRai_NYCSchoolsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0230328_RuthwickSRai_NYCSchoolsTests.swift; sourceTree = "<group>"; };
+		C9FE358629D1E602009CF7B5 /* SchoolListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolListViewController.swift; sourceTree = "<group>"; };
+		C9FE358929D1EB6D009CF7B5 /* School.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = School.swift; sourceTree = "<group>"; };
+		C9FE358C29D1F77E009CF7B5 /* SchoolListViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolListViewExtension.swift; sourceTree = "<group>"; };
+		C9FE359229D1FF67009CF7B5 /* APPConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APPConstant.swift; sourceTree = "<group>"; };
+		C9FE359529D20114009CF7B5 /* SchoolDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolDetailViewController.swift; sourceTree = "<group>"; };
+		C9FE359729D201B0009CF7B5 /* APIEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEngine.swift; sourceTree = "<group>"; };
+		C9FE359F29D21CCA009CF7B5 /* SchoolTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolTableViewCell.swift; sourceTree = "<group>"; };
+		C9FE35A029D21CCA009CF7B5 /* SchoolTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SchoolTableViewCell.xib; sourceTree = "<group>"; };
+		C9FE35A429D2227A009CF7B5 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		C9FE35AD29D226E0009CF7B5 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		C9FE35B229D2AC00009CF7B5 /* DetailHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailHeaderCell.swift; sourceTree = "<group>"; };
+		C9FE35B329D2AC00009CF7B5 /* DetailHeaderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailHeaderCell.xib; sourceTree = "<group>"; };
+		C9FE35B629D2ACE7009CF7B5 /* SATScoreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATScoreTableViewCell.swift; sourceTree = "<group>"; };
+		C9FE35B729D2ACE7009CF7B5 /* SATScoreTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SATScoreTableViewCell.xib; sourceTree = "<group>"; };
+		C9FE35BA29D2B1D4009CF7B5 /* SchoolOverViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolOverViewCell.swift; sourceTree = "<group>"; };
+		C9FE35BB29D2B1D4009CF7B5 /* SchoolOverViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SchoolOverViewCell.xib; sourceTree = "<group>"; };
+		C9FE35BE29D2BACF009CF7B5 /* SchoolDetailViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolDetailViewExtension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9FE354C29D1E277009CF7B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9FE356229D1E27A009CF7B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9FE354629D1E277009CF7B5 = {
+			isa = PBXGroup;
+			children = (
+				C9FE355129D1E277009CF7B5 /* 20230328-RuthwickSRai-NYCSchools */,
+				C9FE356829D1E27A009CF7B5 /* 20230328-RuthwickSRai-NYCSchoolsTests */,
+				C9FE355029D1E277009CF7B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9FE355029D1E277009CF7B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9FE354F29D1E277009CF7B5 /* 20230328-RuthwickSRai-NYCSchools.app */,
+				C9FE356529D1E27A009CF7B5 /* 20230328-RuthwickSRai-NYCSchoolsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9FE355129D1E277009CF7B5 /* 20230328-RuthwickSRai-NYCSchools */ = {
+			isa = PBXGroup;
+			children = (
+				C9FE359429D200F5009CF7B5 /* SchoolDetailView */,
+				C9FE358B29D1EEC3009CF7B5 /* SchoolListView */,
+				C9FE358429D1E523009CF7B5 /* SupportFiles */,
+			);
+			path = "20230328-RuthwickSRai-NYCSchools";
+			sourceTree = "<group>";
+		};
+		C9FE356829D1E27A009CF7B5 /* 20230328-RuthwickSRai-NYCSchoolsTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9FE356929D1E27A009CF7B5 /* _0230328_RuthwickSRai_NYCSchoolsTests.swift */,
+			);
+			path = "20230328-RuthwickSRai-NYCSchoolsTests";
+			sourceTree = "<group>";
+		};
+		C9FE358229D1E4F2009CF7B5 /* DelegateFiles */ = {
+			isa = PBXGroup;
+			children = (
+				C9FE355229D1E277009CF7B5 /* AppDelegate.swift */,
+			);
+			path = DelegateFiles;
+			sourceTree = "<group>";
+		};
+		C9FE358329D1E50F009CF7B5 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				C9FE355829D1E277009CF7B5 /* Main.storyboard */,
+				C9FE355D29D1E279009CF7B5 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		C9FE358429D1E523009CF7B5 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				C9FE35A329D22253009CF7B5 /* Extension */,
+				C9FE359129D1FF55009CF7B5 /* Common */,
+				C9FE358229D1E4F2009CF7B5 /* DelegateFiles */,
+				C9FE358329D1E50F009CF7B5 /* StoryBoard */,
+				C9FE355B29D1E279009CF7B5 /* Assets.xcassets */,
+				C9FE356029D1E279009CF7B5 /* Info.plist */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		C9FE358529D1E58E009CF7B5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C9FE359E29D21C9B009CF7B5 /* ListCell */,
+				C9FE358629D1E602009CF7B5 /* SchoolListViewController.swift */,
+				C9FE358C29D1F77E009CF7B5 /* SchoolListViewExtension.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C9FE358829D1EB1E009CF7B5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C9FE358929D1EB6D009CF7B5 /* School.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C9FE358B29D1EEC3009CF7B5 /* SchoolListView */ = {
+			isa = PBXGroup;
+			children = (
+				C9FE358529D1E58E009CF7B5 /* ViewControllers */,
+				C9FE358829D1EB1E009CF7B5 /* ViewModel */,
+			);
+			path = SchoolListView;
+			sourceTree = "<group>";
+		};
+		C9FE359129D1FF55009CF7B5 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C9FE35A629D22675009CF7B5 /* Loader */,
+				C9FE359229D1FF67009CF7B5 /* APPConstant.swift */,
+				C9FE359729D201B0009CF7B5 /* APIEngine.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		C9FE359429D200F5009CF7B5 /* SchoolDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				C9FE35B129D2ABE0009CF7B5 /* DetailsCells */,
+				C9FE359529D20114009CF7B5 /* SchoolDetailViewController.swift */,
+				C9FE35BE29D2BACF009CF7B5 /* SchoolDetailViewExtension.swift */,
+			);
+			path = SchoolDetailView;
+			sourceTree = "<group>";
+		};
+		C9FE359E29D21C9B009CF7B5 /* ListCell */ = {
+			isa = PBXGroup;
+			children = (
+				C9FE359F29D21CCA009CF7B5 /* SchoolTableViewCell.swift */,
+				C9FE35A029D21CCA009CF7B5 /* SchoolTableViewCell.xib */,
+			);
+			path = ListCell;
+			sourceTree = "<group>";
+		};
+		C9FE35A329D22253009CF7B5 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C9FE35A429D2227A009CF7B5 /* String+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		C9FE35A629D22675009CF7B5 /* Loader */ = {
+			isa = PBXGroup;
+			children = (
+				C9FE35AD29D226E0009CF7B5 /* LoadingView.swift */,
+			);
+			path = Loader;
+			sourceTree = "<group>";
+		};
+		C9FE35B129D2ABE0009CF7B5 /* DetailsCells */ = {
+			isa = PBXGroup;
+			children = (
+				C9FE35B229D2AC00009CF7B5 /* DetailHeaderCell.swift */,
+				C9FE35B329D2AC00009CF7B5 /* DetailHeaderCell.xib */,
+				C9FE35B629D2ACE7009CF7B5 /* SATScoreTableViewCell.swift */,
+				C9FE35B729D2ACE7009CF7B5 /* SATScoreTableViewCell.xib */,
+				C9FE35BA29D2B1D4009CF7B5 /* SchoolOverViewCell.swift */,
+				C9FE35BB29D2B1D4009CF7B5 /* SchoolOverViewCell.xib */,
+			);
+			path = DetailsCells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9FE354E29D1E277009CF7B5 /* 20230328-RuthwickSRai-NYCSchools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9FE357929D1E27A009CF7B5 /* Build configuration list for PBXNativeTarget "20230328-RuthwickSRai-NYCSchools" */;
+			buildPhases = (
+				C9FE354B29D1E277009CF7B5 /* Sources */,
+				C9FE354C29D1E277009CF7B5 /* Frameworks */,
+				C9FE354D29D1E277009CF7B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "20230328-RuthwickSRai-NYCSchools";
+			productName = "20230328-RuthwickSRai-NYCSchools";
+			productReference = C9FE354F29D1E277009CF7B5 /* 20230328-RuthwickSRai-NYCSchools.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9FE356429D1E27A009CF7B5 /* 20230328-RuthwickSRai-NYCSchoolsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9FE357C29D1E27A009CF7B5 /* Build configuration list for PBXNativeTarget "20230328-RuthwickSRai-NYCSchoolsTests" */;
+			buildPhases = (
+				C9FE356129D1E27A009CF7B5 /* Sources */,
+				C9FE356229D1E27A009CF7B5 /* Frameworks */,
+				C9FE356329D1E27A009CF7B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9FE356729D1E27A009CF7B5 /* PBXTargetDependency */,
+			);
+			name = "20230328-RuthwickSRai-NYCSchoolsTests";
+			productName = "20230328-RuthwickSRai-NYCSchoolsTests";
+			productReference = C9FE356529D1E27A009CF7B5 /* 20230328-RuthwickSRai-NYCSchoolsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9FE354729D1E277009CF7B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					C9FE354E29D1E277009CF7B5 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					C9FE356429D1E27A009CF7B5 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = C9FE354E29D1E277009CF7B5;
+					};
+				};
+			};
+			buildConfigurationList = C9FE354A29D1E277009CF7B5 /* Build configuration list for PBXProject "20230328-RuthwickSRai-NYCSchools" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9FE354629D1E277009CF7B5;
+			productRefGroup = C9FE355029D1E277009CF7B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9FE354E29D1E277009CF7B5 /* 20230328-RuthwickSRai-NYCSchools */,
+				C9FE356429D1E27A009CF7B5 /* 20230328-RuthwickSRai-NYCSchoolsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9FE354D29D1E277009CF7B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9FE355F29D1E279009CF7B5 /* LaunchScreen.storyboard in Resources */,
+				C9FE355C29D1E279009CF7B5 /* Assets.xcassets in Resources */,
+				C9FE355A29D1E277009CF7B5 /* Main.storyboard in Resources */,
+				C9FE35A229D21CCA009CF7B5 /* SchoolTableViewCell.xib in Resources */,
+				C9FE35B529D2AC00009CF7B5 /* DetailHeaderCell.xib in Resources */,
+				C9FE35BD29D2B1D4009CF7B5 /* SchoolOverViewCell.xib in Resources */,
+				C9FE35B929D2ACE7009CF7B5 /* SATScoreTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9FE356329D1E27A009CF7B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9FE354B29D1E277009CF7B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9FE359829D201B0009CF7B5 /* APIEngine.swift in Sources */,
+				C9FE35A529D2227A009CF7B5 /* String+Extension.swift in Sources */,
+				C9FE359629D20114009CF7B5 /* SchoolDetailViewController.swift in Sources */,
+				C9FE358D29D1F77E009CF7B5 /* SchoolListViewExtension.swift in Sources */,
+				C9FE35B429D2AC00009CF7B5 /* DetailHeaderCell.swift in Sources */,
+				C9FE35BC29D2B1D4009CF7B5 /* SchoolOverViewCell.swift in Sources */,
+				C9FE35B829D2ACE7009CF7B5 /* SATScoreTableViewCell.swift in Sources */,
+				C9FE35BF29D2BACF009CF7B5 /* SchoolDetailViewExtension.swift in Sources */,
+				C9FE359329D1FF67009CF7B5 /* APPConstant.swift in Sources */,
+				C9FE358729D1E602009CF7B5 /* SchoolListViewController.swift in Sources */,
+				C9FE35AE29D226E0009CF7B5 /* LoadingView.swift in Sources */,
+				C9FE35A129D21CCA009CF7B5 /* SchoolTableViewCell.swift in Sources */,
+				C9FE358A29D1EB6D009CF7B5 /* School.swift in Sources */,
+				C9FE355329D1E277009CF7B5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9FE356129D1E27A009CF7B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9FE356A29D1E27A009CF7B5 /* _0230328_RuthwickSRai_NYCSchoolsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9FE356729D1E27A009CF7B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9FE354E29D1E277009CF7B5 /* 20230328-RuthwickSRai-NYCSchools */;
+			targetProxy = C9FE356629D1E27A009CF7B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C9FE355829D1E277009CF7B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9FE355929D1E277009CF7B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C9FE355D29D1E279009CF7B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9FE355E29D1E279009CF7B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9FE357729D1E27A009CF7B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C9FE357829D1E27A009CF7B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9FE357A29D1E27A009CF7B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZK77SU6393;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "20230328-RuthwickSRai-NYCSchools/SupportFiles/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "NYC Schools";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.virtusa.com.-0230328-RuthwickSRai-NYCSchools";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C9FE357B29D1E27A009CF7B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZK77SU6393;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "20230328-RuthwickSRai-NYCSchools/SupportFiles/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "NYC Schools";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.virtusa.com.-0230328-RuthwickSRai-NYCSchools";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		C9FE357D29D1E27A009CF7B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZK77SU6393;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.virtusa.com.-0230328-RuthwickSRai-NYCSchoolsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/20230328-RuthwickSRai-NYCSchools.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/20230328-RuthwickSRai-NYCSchools";
+			};
+			name = Debug;
+		};
+		C9FE357E29D1E27A009CF7B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZK77SU6393;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.virtusa.com.-0230328-RuthwickSRai-NYCSchoolsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/20230328-RuthwickSRai-NYCSchools.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/20230328-RuthwickSRai-NYCSchools";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9FE354A29D1E277009CF7B5 /* Build configuration list for PBXProject "20230328-RuthwickSRai-NYCSchools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9FE357729D1E27A009CF7B5 /* Debug */,
+				C9FE357829D1E27A009CF7B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9FE357929D1E27A009CF7B5 /* Build configuration list for PBXNativeTarget "20230328-RuthwickSRai-NYCSchools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9FE357A29D1E27A009CF7B5 /* Debug */,
+				C9FE357B29D1E27A009CF7B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9FE357C29D1E27A009CF7B5 /* Build configuration list for PBXNativeTarget "20230328-RuthwickSRai-NYCSchoolsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9FE357D29D1E27A009CF7B5 /* Debug */,
+				C9FE357E29D1E27A009CF7B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9FE354729D1E277009CF7B5 /* Project object */;
+}
